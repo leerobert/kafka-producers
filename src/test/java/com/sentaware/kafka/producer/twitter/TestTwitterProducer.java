@@ -24,7 +24,7 @@ public class TestTwitterProducer {
 		String consumerKey, consumerSecret, access, accessSecret;
 		
 		// If you want to provide your own keys, provide each via args or hardcode them in.
-		if ( args.length == 4 ) {
+		if ( args != null && args.length == 4 ) {
 			consumerKey = args[0];
 			consumerSecret = args[1];
 			access = args[2];
